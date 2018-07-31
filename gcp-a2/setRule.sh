@@ -1,2 +1,5 @@
-gsutil lifecycle set rule.json gs://utsav-pe2
-gsutil lifecycle get gs://utsav-pe2
+echo "insert a bucket name"
+read myBucket
+gsutil lifecycle set rule.json gs://${myBucket}
+#gsutil lifecycle get gs://${myBucket}
+echo "Lifecycle sucessfully set"
