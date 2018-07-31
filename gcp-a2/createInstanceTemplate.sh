@@ -1,0 +1,1 @@
+gcloud compute instance-templates create my-template --machine-type=n1-standard-1 --network=projects/pe-training/global/networks/default --service-account=912623308461-compute@developer.gserviceaccount.com --boot-disk-size=10GB --boot-disk-type=pd-standard
